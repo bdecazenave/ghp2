@@ -1,0 +1,407 @@
+body
+{
+  min-width: 400px;
+  height: 100vh;
+  font-size: 14px;
+  font-family: arial,sans-serif;
+  color: #222;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin:0px;
+}
+
+  #navbar
+  {
+    padding:6px;
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    justify-content: flex-end
+  }
+
+  a:link
+  {
+    text-decoration: none;
+  }
+
+  a:visited
+  {
+    text-decoration: none;
+  }
+
+  a:hover
+  {
+    text-decoration: underline;
+  }
+
+    .menugmail
+    {
+      display: inline-block;
+      cursor:pointer;
+      line-height: 24px;
+      vertical-align: middle;
+      font-style: normal;
+      color: rgba(0,0,0,0.87);
+      font-size: 13px;
+      padding-left: 30px;
+      font-family: Roboto, RobotoDraft, Arial, sans-serif;
+    }
+
+    .menuimages
+    {
+      display: inline-block;
+      text-decoration: none;
+      cursor:pointer;
+      line-height: 24px;
+      vertical-align: middle;
+      font-style: normal;
+      color: rgba(0,0,0,0.87);
+      font-variant-ligatures: normal;
+      font-variant-caps: normal;
+      font-variant-numeric: normal;
+      font-variant-east-asian: normal;
+      font-weight: normal;
+      font-stretch: normal;
+      font-size: 13px;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-family: Roboto, RobotoDraft, Arial, sans-serif;
+    }
+
+    .menuappgoogle
+    {
+      width: 17px;
+	    height: 17px;
+      transition-duration: 0.4s;
+      cursor:pointer;
+      padding: 4px;
+      padding-left: 30px;
+      padding-right: 30px;
+      opacity: 1;
+     }
+
+     .menuphoto
+     {
+      background-size: 32px 32px;
+      cursor:pointer;
+      border: 0;
+      border-radius: 50%;
+      display: block;
+      margin: 0px;
+      position: relative;
+      height: 32px;
+      width: 32px;
+      padding-left: 0px
+     }
+      .menuphoto:hover
+      {
+        background-color: rgba(0,0,0,.54);
+      }
+
+  #container
+  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .logoplace
+    {
+      display: flex;
+      justify-content: center;
+    }
+
+    .logogoogle
+    {
+      height: 92px;
+      width: 272px;
+      margin-bottom: 20px;
+    }
+
+    .searchbar
+    {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      margin: 0;
+      color: #202124;
+      word-wrap: break-word;
+      padding: 0;
+      border:none;
+      background-color: transparent;
+      align-items: center;
+      position: relative;
+    }
+
+      .searchbar input
+      {
+        width: 700px;
+        color: #202124;
+        font-size: 16px;
+        min width:10px;
+        max-width: 700px;
+        border: 1px solid #EEEEEE;
+        border-radius: 50px;
+        height: 40px;
+        padding: 2px 23px 2px 30px;
+        outline: 0;
+        background-color: transparent;
+      }
+
+      .searchbar input:hover
+      {
+              box-shadow:2px 3px 5px 5px #F2F2F2;
+      }
+
+      .searchbar img
+      {
+        width: 17px;
+        position: absolute;
+        left: 15px;
+        top: 15px;
+      }
+
+      .searchimage
+      {
+        width: 17px;
+        height: 17px;
+      }
+
+    .CTA
+    {
+      margin:25px
+    }
+
+      .ctasearch
+      {
+        color: #3C4043;
+        min-width: 54px ;
+        height:36px ;
+        background-color: #f8f9fa;
+        border-color:#f8f9fa;
+        margin-top: 11px;
+        margin-bottom: 11px;
+        margin-left:4px;
+        margin-right: 4px;
+        border: 1px;
+        padding-left: 16px;
+        padding-right: 16px;
+
+      }
+        .ctasearch:hover
+        {
+          box-shadow: 2px 3px 5px 5px #F2F2F2;
+        }
+
+      .ctalucky
+      {
+        color: #3C4043;
+        min-width: 54px ;
+        height:36px ;
+        background-color: #f8f9fa;
+        border-color:#f8f9fa;
+        margin-top: 11px;
+        margin-bottom: 11px;
+        margin-left:4px;
+        margin-right: 4px;
+        border: 1px;
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+      .ctalucky:hover
+      {
+        box-shadow: 2px 3px 5px 5px #F2F2F2;
+      }
+
+    .available
+    {
+      color: #3C4043;
+    }
+
+#footer
+{
+  background-color: #F2F2F2;
+  border-bottom-color: #3C4043;
+
+}
+
+.prefooter
+{
+left: 0px;
+position: relative;
+font-size: 15px;
+border-bottom: solid;
+border-width:thin;
+border-color: #D9DCE0;
+}
+
+.prefooter p
+{
+left: 30px;
+position: relative;
+color: #3C4043;
+}
+
+.footer
+{
+  padding:10px;
+  display: inline-block;
+  cursor:pointer;
+  line-height: 24px;
+  vertical-align: middle;
+  font-style: normal;
+  color: rgba(0,0,0,0.87);
+  font-size: 14px;
+  padding-left: 30px;
+  font-family: Roboto, RobotoDraft, Arial, sans-serif;
+}
+
+.menuabout
+{
+  display: inline-block;
+  cursor:pointer;
+  line-height: 24px;
+  vertical-align: middle;
+  font-style: normal;
+  color: rgba(0,0,0,0.87);
+  font-size: 13px;
+  padding-left: 1px;
+  font-family: Roboto, RobotoDraft, Arial, sans-serif;
+  font-size: 14px;
+  color: #3C4043;
+}
+
+.menuads
+{
+  display: inline-block;
+  cursor:pointer;
+  line-height: 24px;
+  vertical-align: middle;
+  font-style: normal;
+  color: rgba(0,0,0,0.87);
+  font-size: 13px;
+  padding-left: 30px;
+  font-family: Roboto, RobotoDraft, Arial, sans-serif;
+  font-size: 14px;
+  color: #3C4043;
+}
+
+.menuinc
+{
+  display: inline-block;
+  cursor:pointer;
+  line-height: 24px;
+  vertical-align: middle;
+  font-style: normal;
+  color: rgba(0,0,0,0.87);
+  font-size: 13px;
+  padding-left: 30px;
+  font-family: Roboto, RobotoDraft, Arial, sans-serif;
+  font-size: 14px;
+  color: #3C4043;
+}
+
+.menuhowtosearch
+{
+  display: inline-block;
+  cursor:pointer;
+  line-height: 24px;
+  vertical-align: middle;
+  font-style: normal;
+  color: rgba(0,0,0,0.87);
+  font-size: 13px;
+  padding-left: 30px;
+  font-family: Roboto, RobotoDraft, Arial, sans-serif;
+  font-size: 14px;
+  color: #3C4043;
+}
+
+.menucarbon
+{
+  display: inline-block;
+  position: relative;
+  cursor:pointer;
+  line-height: 24px;
+  vertical-align: middle;
+  font-style: normal;
+  color: rgba(0,0,0,0.87);
+  font-size: 13px;
+  padding-left: 70px;
+  padding-right: 40px;
+  font-family: Roboto, RobotoDraft, Arial, sans-serif;
+  font-size: 14px;
+  color: #3C4043;
+}
+
+.leaflogo
+{
+  height: 14px;
+  margin-right: 6px;
+  margin-top: 3px;
+  position:absolute;
+  right:800px;
+  }
+
+.menuconsumer
+{
+  display: inline-block;
+  cursor:pointer;
+  line-height: 24px;
+  vertical-align: middle;
+  font-style: normal;
+  color: rgba(0,0,0,0.87);
+  font-size: 13px;
+  padding-left: 30px;
+  font-family: Roboto, RobotoDraft, Arial, sans-serif;
+  font-size: 14px;
+  color: #3C4043;
+}
+
+.menupolicies
+{
+  display: inline-block;
+  cursor:pointer;
+  line-height: 24px;
+  vertical-align: middle;
+  font-style: normal;
+  color: rgba(0,0,0,0.87);
+  font-size: 13px;
+  padding-left: 30px;
+  font-family: Roboto, RobotoDraft, Arial, sans-serif;
+  font-size: 14px;
+  color: #3C4043;
+}
+
+.menuterms
+{
+  display: inline-block;
+  cursor:pointer;
+  line-height: 24px;
+  vertical-align: middle;
+  font-style: normal;
+  color: rgba(0,0,0,0.87);
+  font-size: 13px;
+  padding-left: 30px;
+  font-family: Roboto, RobotoDraft, Arial, sans-serif;
+  font-size: 14px;
+  color: #3C4043;
+}
+
+.menuparameters
+{
+  display: inline-block;
+  cursor:pointer;
+  line-height: 24px;
+  vertical-align: middle;
+  font-style: normal;
+  color: rgba(0,0,0,0.87);
+  font-size: 13px;
+  padding-left: 30px;
+  font-family: Roboto, RobotoDraft, Arial, sans-serif;
+  font-size: 14px;
+  color: #3C4043;
+}
